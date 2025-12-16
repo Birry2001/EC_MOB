@@ -2,6 +2,13 @@
 
 # LIMO-DAVIS : Event-Based Dynamic Obstacle Detection for Robust Navigation
 
+
+![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-blue)
+![Platform LIMO](https://img.shields.io/badge/Platform-AgileX%20LIMO-orange)
+![Sensor DAVIS346](https://img.shields.io/badge/Sensor-DAVIS--346-green)
+![License MIT](https://img.shields.io/badge/License-MIT-yellow)
+
+
 ##  Présentation générale
 
 Ce dépôt contient le projet de **Master 2 en robotique / perception artificielle**, dont l’objectif est d’**améliorer la robustesse de la navigation autonome du robot AgileX LIMO** en conditions difficiles, en intégrant une **caméra à évènements DAVIS-346** au sein de la pile ROS 2 existante.
@@ -42,6 +49,7 @@ Le projet s’inscrit dans une démarche **expérimentale et comparative**, en �
 * **IMU** : IMU embarquée LIMO
 * **Caméra à évènements** : **DAVIS-346** (events + APS + IMU)
 
+
 ---
 
 ##  Approche scientifique
@@ -71,7 +79,7 @@ Principes clés :
 ---
 
 
-## 📚 Références principales
+##  Références principales
 
 * Zhao et al., *Event-based Real-time Moving Object Detection Based on IMU Ego-motion Compensation*, ICRA 2023
 * RTAB-Map ROS
