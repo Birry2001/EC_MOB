@@ -1,0 +1,20 @@
+# Fichiers de build et d'installation ROS 2
+project_ws/build/
+project_ws/install/
+project_ws/log/
+
+# Fichiers temporaires Python et C++
+__pycache__/
+*.pyc
+*.o
+*.so
+
+# Fichiers de données volumineux (Rosasbags)
+project_ws/bags_ros/
+*.bag
+*.mcap
+
+# Fichiers systèmes ou IDE
+.vscode/
+.idea/
+.DS_Store
