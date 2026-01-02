@@ -22,6 +22,8 @@
   <depend>OpenCV</depend>
 
   <depend>dvs_msgs</depend>
+  <depend>event_camera_codecs</depend>
+  <depend>event_camera_msgs</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

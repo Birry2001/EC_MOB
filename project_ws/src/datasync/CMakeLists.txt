@@ -23,6 +23,7 @@ find_package(image_transport REQUIRED)
 find_package(dvs_msgs REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(event_camera_msgs REQUIRED)
+find_package(event_camera_codecs REQUIRED)
 
 # ---  Build Executable ---
 add_executable(Motion_Compensation src/Motion_Compensation.cpp)
@@ -46,6 +47,7 @@ ament_target_dependencies(Motion_Compensation
   image_transport
   event_camera_msgs
   dvs_msgs
+  event_camera_codecs
 )
 
 # Link System libraries (OpenCV)
